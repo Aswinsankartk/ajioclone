@@ -1,0 +1,46 @@
+.header{
+  display:flex;
+  justify-content: space-between;
+  height:80px;
+  width:100%;
+  align-items: center;
+  background-color: hsl(0 0 8%);
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+}
+.menu{
+  margin-left:20px;
+  scale:100%;
+}
+.login{
+  background-color:#f0db67;
+  border:0;
+  width:60px;
+  height:30px;
+  border-radius:4px;
+  color:hsl(0 0 5%);
+  font-family:"Red Rose",serif;
+  font-weight:700;
+  margin-right:20px;
+  scale:100%;
+  box-shadow: 0 0px 8px 6px hsla(0, 0%, 0%, 0.2);
+}
+.login:hover{
+  scale:106%;
+  background-color: hsl(0 0 10%);
+  color:#f0db67;
+  border:0.5px solid #f0db67;;
+}
+.menu:hover{
+  scale:106%;
+}
+.login:active{
+  scale:106%;
+  box-shadow: 0 0px 8px 6px hsla(0, 0%, 0%, 0.3);
+  background-color:#f0db67;
+  color:hsl(0 0 10%);
+}
+.menu:active{
+  .bar{
+  fill:#ffffff;
+  }
+}

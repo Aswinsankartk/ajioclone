@@ -1,0 +1,15 @@
+body{
+
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family:"Red Rose",serif;
+  background-color: hsl(0 0 3%);
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  background-size: fill;
+  position:relative;
+  height:100vh;
+}
+*{
+  transition: all 0.2s ease;
+}

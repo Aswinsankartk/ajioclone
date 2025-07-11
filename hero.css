@@ -1,0 +1,47 @@
+.hero {
+  text-align: center;
+  width:100%;
+  height:230px;
+  position:relative;
+}
+h2{
+  color:#f0db67;
+  font-size:50px;
+  margin:40px 0 0 0;
+}
+.about{
+  color:#f1f1f1;
+  font-size:10px;
+  padding-top:1px;
+  margin:0;
+  top:160px;
+  right:23%;
+}
+.shop-now{
+  width:100px;
+  height:38px;
+  border:0.5px solid hsla(0, 0%, 100%, 0.1);
+  padding:0;
+  border-radius:19px;
+  align-self: center;
+  font-family:"Red Rose",serif;
+  font-weight:700;
+  font-size:13px;
+  color:#f0db67;
+  background-color: hsl(0 0 9%);
+  margin:50px;
+}
+.shop-now:hover{
+  scale:106%;
+  border:0.5px solid hsl(0 0 10%);
+  background-color:#f0db67;
+  color:hsl(0 0 10%);
+  box-shadow: 0 0px 8px 6px hsla(0, 0%, 0%, 0.4);
+}
+.shop-now:active{
+  scale:106%;
+  border:0.3px solid #f0db67;
+  background-color:hsl(0 0 10%);
+  color:hsl(0 0 10%);
+  box-shadow: 0 0px 8px 6px hsla(0, 0%, 0%, 0.4);
+}
